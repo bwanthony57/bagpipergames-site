@@ -32,3 +32,7 @@ Do **not** publish EIN, tax IDs, bank information, private phone numbers, person
 ## Brand assets
 
 Logo and mark files live in `assets/`. See `BRAND-SPEC.md` for usage guidelines.
+
+## TODO
+
+- Add a Golfer's Pair-A-Dice logo or card image to the Games section when a suitable asset is available.
