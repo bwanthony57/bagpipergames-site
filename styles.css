@@ -1,9 +1,9 @@
-/* Bagpiper Games — publisher site (dark green / cream) */
+/* Bagpiper Games — publisher site (forest green / cream) */
 
 :root {
-  --bg: #0d5138;
+  --bg: #0f2f22;
   --bg-deep: #063b2a;
-  --panel: #115c40;
+  --panel: #123d2e;
   --cream: #fff8e8;
   --cream-muted: rgba(255, 248, 232, 0.78);
   --accent: #e4d27a;
@@ -25,9 +25,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: var(--cream);
-  background:
-    radial-gradient(circle at top left, rgba(228, 210, 122, 0.08), transparent 28rem),
-    linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
   min-height: 100vh;
 }
 
@@ -50,13 +48,13 @@ a:focus-visible,
   top: 0;
   z-index: 10;
   border-bottom: 1px solid var(--border);
-  background: rgba(6, 59, 42, 0.92);
+  background: var(--bg);
 }
 
 .nav {
   max-width: 960px;
   margin: 0 auto;
-  padding: 0.85rem 1.25rem;
+  padding: 0.75rem 1.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -64,27 +62,17 @@ a:focus-visible,
 }
 
 .logo-link {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
+  display: block;
   flex-shrink: 0;
   text-decoration: none;
-  color: var(--cream);
+  line-height: 0;
 }
 
-.logo-mark {
+.logo {
   display: block;
   width: auto;
   height: auto;
-  max-width: 44px;
-  max-height: 57px;
-}
-
-.logo-text {
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
+  max-width: min(220px, 56vw);
 }
 
 .nav-links {
@@ -222,7 +210,7 @@ address {
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 2rem 1.25rem;
-  background: rgba(6, 59, 42, 0.85);
+  background: var(--bg-deep);
   color: var(--cream-muted);
   font-size: 0.95rem;
 }
