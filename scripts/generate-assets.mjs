@@ -63,7 +63,8 @@ function textPath(font, text, size, x, y) {
     const gx = cursor + (pos.xOffset || 0) * scale;
     const gy = baseline - (pos.yOffset || 0) * scale;
     const transform = `translate(${gx.toFixed(2)}, ${gy.toFixed(2)}) scale(${scale.toFixed(6)})`;
-    paths.push(`<g transform="${transform}">${glyph.path.toSVG()}</g>`);
+    const d = glyph.path.toSVG().replace(/^<path d="/, '').replace(/"\/>$/, '');
+    paths.push(`<g transform="${transform}"><path d="${d}"/></g>`);
     cursor += (pos.xAdvance || 0) * scale;
   });
 
