@@ -1,0 +1,26 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwanthony57/bagpipergames-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwanthony57/bagpipergames-site/issues"
+  },
+  "homepage": "https://github.com/bwanthony57/bagpipergames-site#readme",
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "fontkit": "^2.0.4",
+    "opentype.js": "^2.0.0",
+    "puppeteer-core": "^25.1.0"
+  }
+}
