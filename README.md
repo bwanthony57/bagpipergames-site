@@ -60,4 +60,4 @@ To update skills later: `npx skills update -y`
 
 ## TODO
 
-- Add a Golfer's Pair-A-Dice logo or card image to the Games section when a suitable asset is available.
+- Configure deployment host and document the steps in the Deployment section above.

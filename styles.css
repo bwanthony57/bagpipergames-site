@@ -18,6 +18,34 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 100;
+  padding: 0.5rem 0.85rem;
+  background: var(--cream);
+  color: var(--bg-deep);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 body {
@@ -160,12 +188,56 @@ main {
   color: var(--cream);
 }
 
+.contact-group {
+  margin: 0 0 1.75rem;
+  max-width: 42rem;
+}
+
+.contact-group:last-child {
+  margin-bottom: 0;
+}
+
+.contact-label {
+  margin: 0 0 0.35rem;
+  font-weight: 600;
+  color: var(--cream);
+}
+
+.contact-group p {
+  margin: 0;
+}
+
+.contact-group address {
+  margin: 0;
+  font-style: normal;
+  color: var(--cream-muted);
+  line-height: 1.7;
+}
+
 .game-card {
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 1.5rem;
   max-width: 42rem;
+}
+
+.game-card-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.game-card-art {
+  flex-shrink: 0;
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 8px;
+  display: block;
+}
+
+.game-card-body {
+  min-width: 0;
 }
 
 .game-card h3 {
@@ -193,18 +265,6 @@ main {
 .button:hover {
   background: var(--accent);
   color: var(--bg-deep);
-}
-
-.address-label {
-  margin-top: 1.5rem;
-  font-weight: 600;
-  color: var(--cream);
-}
-
-address {
-  font-style: normal;
-  color: var(--cream-muted);
-  line-height: 1.7;
 }
 
 .site-footer {
@@ -239,6 +299,10 @@ address {
 }
 
 @media (max-width: 640px) {
+  html {
+    scroll-padding-top: 9rem;
+  }
+
   .nav {
     flex-direction: column;
     align-items: flex-start;

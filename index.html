@@ -5,14 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bagpiper Games — Independent games from BAGPIPER, LLC</title>
   <meta name="description" content="Bagpiper Games is the publishing label for BAGPIPER, LLC. Home of Golfer's Pair-A-Dice and approachable, replayable games.">
+  <meta name="theme-color" content="#0f2f22">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bagpipergames.com/">
+  <meta property="og:title" content="Bagpiper Games — Independent games from BAGPIPER, LLC">
+  <meta property="og:description" content="Bagpiper Games is the publishing label for BAGPIPER, LLC. Home of Golfer's Pair-A-Dice and approachable, replayable games.">
+  <meta property="og:image" content="https://bagpipergames.com/assets/bagpiper-lockup-reverse.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="./assets/bagpiper-mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="site-header">
     <div class="nav">
-      <a class="logo-link" href="#top" aria-label="BAGPIPER, LLC">
-        <img src="./assets/bagpiper-lockup-reverse.png" alt="BAGPIPER, LLC" class="logo" width="291" height="162">
+      <a class="logo-link" href="#main-content" aria-label="BAGPIPER, LLC">
+        <img src="./assets/bagpiper-lockup-reverse.png" alt="BAGPIPER, LLC" class="logo" width="2400" height="1132">
       </a>
       <nav class="nav-links" aria-label="Primary">
         <a href="#games">Games</a>
@@ -22,7 +30,7 @@
     </div>
   </header>
 
-  <main id="top">
+  <main id="main-content">
     <section class="hero" aria-labelledby="hero-heading">
       <p class="hero-label">Bagpiper Games</p>
       <h1 id="hero-heading">Independent games from BAGPIPER, LLC.</h1>
@@ -32,39 +40,60 @@
     <section id="games" class="section" aria-labelledby="games-heading">
       <h2 id="games-heading">Games</h2>
       <article class="game-card">
-        <h3>Golfer's Pair-A-Dice</h3>
-        <p>A dice-rolling golf game where every round is a mix of risk, reward, and clubhouse chaos.</p>
-        <a class="button" href="https://golferspairadice.com">Visit Golfer's Pair-A-Dice</a>
+        <div class="game-card-inner">
+          <img
+            class="game-card-art"
+            src="./assets/golfers-pair-a-dice-icon.png"
+            alt=""
+            width="1024"
+            height="1024"
+            decoding="async"
+          >
+          <div class="game-card-body">
+            <h3>Golfer's Pair-A-Dice</h3>
+            <p>A dice-rolling golf game where every round is a mix of risk, reward, and clubhouse chaos.</p>
+            <a class="button" href="https://golferspairadice.com" rel="noopener noreferrer">Visit Golfer's Pair-A-Dice</a>
+          </div>
+        </div>
       </article>
     </section>
 
     <section id="about" class="section" aria-labelledby="about-heading">
       <h2 id="about-heading">About</h2>
       <p>Bagpiper Games is the publishing label for <strong>BAGPIPER, LLC</strong>, a small independent game company based in Fort Worth, Texas. We focus on making games that are easy to pick up, satisfying to replay, and built with care.</p>
-      <p>Our current release is <a href="https://golferspairadice.com">Golfer's Pair-A-Dice</a>. We are not a large studio — we ship thoughtfully, one game at a time.</p>
+      <p>Our current release is <a href="https://golferspairadice.com" rel="noopener noreferrer">Golfer's Pair-A-Dice</a>. We are not a large studio — we ship thoughtfully, one game at a time.</p>
     </section>
 
     <section id="contact" class="section" aria-labelledby="contact-heading">
       <h2 id="contact-heading">Contact</h2>
-      <p>For support with <strong>Golfer's Pair-A-Dice</strong>:</p>
-      <p><a href="mailto:support@golferspairadice.com">support@golferspairadice.com</a></p>
-      <p>For business inquiries:</p>
-      <p><a href="mailto:brooks.anthony@bagpipergames.com">brooks.anthony@bagpipergames.com</a></p>
-      <p class="address-label">Mailing address</p>
-      <address>
-        BAGPIPER, LLC<br>
-        3000 S Hulen Street<br>
-        STE 124 #254<br>
-        Fort Worth, Texas 76109<br>
-        United States
-      </address>
+
+      <div class="contact-group">
+        <p class="contact-label">Support — <strong>Golfer's Pair-A-Dice</strong></p>
+        <p><a href="mailto:support@golferspairadice.com">support@golferspairadice.com</a></p>
+      </div>
+
+      <div class="contact-group">
+        <p class="contact-label">Business inquiries</p>
+        <p><a href="mailto:brooks.anthony@bagpipergames.com">brooks.anthony@bagpipergames.com</a></p>
+      </div>
+
+      <div class="contact-group">
+        <p class="contact-label">Mailing address</p>
+        <address>
+          BAGPIPER, LLC<br>
+          3000 S Hulen Street<br>
+          STE 124 #254<br>
+          Fort Worth, Texas 76109<br>
+          United States
+        </address>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
       <p>&copy; 2026 BAGPIPER, LLC. All rights reserved.</p>
-      <p><a href="https://golferspairadice.com">Golfer's Pair-A-Dice</a></p>
+      <p><a href="https://golferspairadice.com" rel="noopener noreferrer">Golfer's Pair-A-Dice</a></p>
     </div>
   </footer>
 </body>
