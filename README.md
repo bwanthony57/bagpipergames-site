@@ -35,7 +35,7 @@ Logo and mark files live in `assets/`. See `BRAND-SPEC.md` for usage guidelines.
 
 ## Agent skills (Cursor)
 
-This repo includes [Impeccable](https://webdeveloper.com/tools/impeccable/), [Taste Skill](https://www.tasteskill.dev/docs), [Emil Kowalski design skills](https://emilkowal.ski/skill), and [Vercel web-design-guidelines](https://skills.sh/vercel-labs/agent-skills/web-design-guidelines) for AI-assisted design work.
+This repo includes [Impeccable](https://webdeveloper.com/tools/impeccable/), [Taste Skill](https://www.tasteskill.dev/docs), [Emil Kowalski design skills](https://emilkowal.ski/skill), [Ponytail](https://github.com/DietrichGebert/ponytail), and [Vercel web-design-guidelines](https://skills.sh/vercel-labs/agent-skills/web-design-guidelines) for AI-assisted design and coding work.
 
 **Installed skills:** `.agents/skills/` (locked in `skills-lock.json`)
 
@@ -46,6 +46,8 @@ This repo includes [Impeccable](https://webdeveloper.com/tools/impeccable/), [Ta
 | Command | Purpose |
 | --- | --- |
 | `/design-taste-frontend` | Anti-slop frontend generation — brief inference, ban list, pre-flight checks |
+| `/emil-design-eng` | UI polish, component patterns, and animation decision framework |
+| `/review-animations` | Review motion code against Emil Kowalski's craft bar |
 | `/impeccable audit` | Accessibility, responsive, and quality checks |
 | `/impeccable polish` | Pre-ship design refinement pass |
 | `/impeccable critique` | UX review with actionable feedback |
