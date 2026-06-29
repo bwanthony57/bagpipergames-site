@@ -35,7 +35,7 @@ Logo and mark files live in `assets/`. See `BRAND-SPEC.md` for usage guidelines.
 
 ## Agent skills (Cursor)
 
-This repo includes [Impeccable](https://webdeveloper.com/tools/impeccable/) and [Vercel web-design-guidelines](https://skills.sh/vercel-labs/agent-skills/web-design-guidelines) for AI-assisted design work.
+This repo includes [Impeccable](https://webdeveloper.com/tools/impeccable/), [Taste Skill](https://www.tasteskill.dev/docs), and [Vercel web-design-guidelines](https://skills.sh/vercel-labs/agent-skills/web-design-guidelines) for AI-assisted design work.
 
 **Installed skills:** `.agents/skills/` (locked in `skills-lock.json`)
 
@@ -45,6 +45,7 @@ This repo includes [Impeccable](https://webdeveloper.com/tools/impeccable/) and 
 
 | Command | Purpose |
 | --- | --- |
+| `/design-taste-frontend` | Anti-slop frontend generation — brief inference, ban list, pre-flight checks |
 | `/impeccable audit` | Accessibility, responsive, and quality checks |
 | `/impeccable polish` | Pre-ship design refinement pass |
 | `/impeccable critique` | UX review with actionable feedback |
