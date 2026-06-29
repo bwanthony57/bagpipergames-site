@@ -45,6 +45,9 @@ This repo includes [Impeccable](https://webdeveloper.com/tools/impeccable/), [Ta
 
 | Command | Purpose |
 | --- | --- |
+| `/ponytail` | Minimal-code mode — YAGNI, stdlib-first, simplest solution (modes: lite, full, ultra) |
+| `/ponytail-review` | Review diff for over-engineering; what to delete or simplify |
+| `/ponytail-audit` | Whole-repo audit for bloat and unnecessary complexity |
 | `/design-taste-frontend` | Anti-slop frontend generation — brief inference, ban list, pre-flight checks |
 | `/emil-design-eng` | UI polish, component patterns, and animation decision framework |
 | `/review-animations` | Review motion code against Emil Kowalski's craft bar |
