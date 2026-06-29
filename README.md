@@ -33,6 +33,25 @@ Do **not** publish EIN, tax IDs, bank information, private phone numbers, person
 
 Logo and mark files live in `assets/`. See `BRAND-SPEC.md` for usage guidelines.
 
+## Agent skills (Cursor)
+
+This repo includes [Impeccable](https://webdeveloper.com/tools/impeccable/) and [Vercel web-design-guidelines](https://skills.sh/vercel-labs/agent-skills/web-design-guidelines) for AI-assisted design work.
+
+**Installed skills:** `.agents/skills/` (locked in `skills-lock.json`)
+
+**Brand context:** `PRODUCT.md` and `DESIGN.md` at the project root — generated from `BRAND-SPEC.md` and the live site styles.
+
+**Useful commands in Cursor Agent chat:**
+
+| Command | Purpose |
+| --- | --- |
+| `/impeccable audit` | Accessibility, responsive, and quality checks |
+| `/impeccable polish` | Pre-ship design refinement pass |
+| `/impeccable critique` | UX review with actionable feedback |
+| `/web-design-guidelines` | Audit UI against Vercel interface guidelines |
+
+To update skills later: `npx skills update -y`
+
 ## TODO
 
 - Add a Golfer's Pair-A-Dice logo or card image to the Games section when a suitable asset is available.
