@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="1024" height="1024">
+<defs><clipPath id="cc1"><path d="M110.67 114.76 Q116 112 121.33 114.76 L137.67 123.24 Q143 126 143 132 L143 149 Q143 155 137.67 157.76 L121.33 166.24 Q116 169 110.67 166.24 L94.33 157.76 Q89 155 89 149 L89 132 Q89 126 94.33 123.24 Z"/></clipPath><clipPath id="cc2"><path d="M154.67 98.76 Q160 96 165.33 98.76 L181.67 107.24 Q187 110 187 116 L187 133 Q187 139 181.67 141.76 L165.33 150.24 Q160 153 154.67 150.24 L138.33 141.76 Q133 139 133 133 L133 116 Q133 110 138.33 107.24 Z"/></clipPath></defs>
+<rect width="200" height="200" fill="#8ECAE6"/>
+<circle cx="188" cy="14" r="48" fill="#A8D8EC"/>
+<circle cx="188" cy="14" r="32" fill="#F5EFC2"/>
+<path d="M-10 210 L-10 92 Q100 54 210 92 L210 210 Z" fill="#1E6B3C"/>
+<path d="M-10 210 L-10 138 Q100 106 210 138 L210 210 Z" fill="#6CBF4A"/>
+<ellipse cx="64" cy="156" rx="9" ry="3.5" fill="#0E3D26"/>
+<line x1="64" y1="68" x2="64" y2="157.5" stroke="#FFFFFF" stroke-width="3.2"/>
+<ellipse cx="64" cy="158.2" rx="7" ry="2.2" fill="#0E3D26"/>
+<g transform="translate(64,70) rotate(6) scale(1.4)">
+<circle cx="0" cy="-27" r="3" fill="#FFFFFF"/>
+<path d="M0 -24 L-40 4 Q0 -4 40 4 Z" fill="#F06FA8"/>
+<path d="M0 -24 L-13.3 0.44 Q0 -4 13.3 0.44 Z" fill="#F58FBC"/>
+<line x1="0" y1="-24" x2="-40" y2="4" stroke="#FFFFFF" stroke-width="1.8"/>
+<line x1="0" y1="-24" x2="-13.3" y2="0.44" stroke="#FFFFFF" stroke-width="1.5"/>
+<line x1="0" y1="-24" x2="13.3" y2="0.44" stroke="#FFFFFF" stroke-width="1.5"/>
+<line x1="0" y1="-24" x2="40" y2="4" stroke="#FFFFFF" stroke-width="1.8"/>
+<circle cx="-40" cy="4" r="2" fill="#FFFFFF"/><circle cx="-13.3" cy="0.44" r="2" fill="#FFFFFF"/><circle cx="13.3" cy="0.44" r="2" fill="#FFFFFF"/><circle cx="40" cy="4" r="2" fill="#FFFFFF"/>
+</g>
+<ellipse cx="160" cy="156" rx="30" ry="5" fill="#57A53F"/>
+<g clip-path="url(#cc2)">
+<polygon points="160,96 187,110 160,124 133,110" fill="#FFFFFF"/>
+<polygon points="133,110 160,124 160,153 133,139" fill="#F0EDE4"/>
+<polygon points="160,124 187,110 187,139 160,153" fill="#E3DFD2"/>
+<g transform="matrix(0.27,0.14,-0.27,0.14,160,96)"><circle cx="25" cy="25" r="10.5" fill="#2A2A2A"/><circle cx="75" cy="25" r="10.5" fill="#2A2A2A"/><circle cx="25" cy="75" r="10.5" fill="#2A2A2A"/><circle cx="75" cy="75" r="10.5" fill="#2A2A2A"/><circle cx="50" cy="50" r="10.5" fill="#2A2A2A"/></g>
+<g transform="matrix(0.27,0.14,0,0.29,133,110)"><circle cx="20" cy="33" r="8.5" fill="#2A2A2A"/><circle cx="50" cy="33" r="8.5" fill="#2A2A2A"/><circle cx="80" cy="33" r="8.5" fill="#2A2A2A"/><circle cx="20" cy="67" r="8.5" fill="#2A2A2A"/><circle cx="50" cy="67" r="8.5" fill="#2A2A2A"/><circle cx="80" cy="67" r="8.5" fill="#2A2A2A"/></g>
+<g transform="matrix(0.27,-0.14,0,0.29,160,124)"><circle cx="30" cy="30" r="10" fill="#2A2A2A"/><circle cx="70" cy="30" r="10" fill="#2A2A2A"/><circle cx="30" cy="70" r="10" fill="#2A2A2A"/><circle cx="70" cy="70" r="10" fill="#2A2A2A"/></g>
+</g>
+<ellipse cx="116" cy="172" rx="34" ry="6" fill="#57A53F"/>
+<g clip-path="url(#cc1)">
+<polygon points="116,112 143,126 116,140 89,126" fill="#FFFFFF"/>
+<polygon points="89,126 116,140 116,169 89,155" fill="#F0EDE4"/>
+<polygon points="116,140 143,126 143,155 116,169" fill="#E3DFD2"/>
+<g transform="matrix(0.27,0.14,-0.27,0.14,116,112)"><circle cx="50" cy="50" r="14" fill="#2A2A2A"/></g>
+<g transform="matrix(0.27,0.14,0,0.29,89,126)"><circle cx="30" cy="30" r="12" fill="#2A2A2A"/><circle cx="70" cy="70" r="12" fill="#2A2A2A"/></g>
+<g transform="matrix(0.27,-0.14,0,0.29,116,140)"><circle cx="25" cy="25" r="12" fill="#2A2A2A"/><circle cx="50" cy="50" r="12" fill="#2A2A2A"/><circle cx="75" cy="75" r="12" fill="#2A2A2A"/></g>
+</g>
+</svg>
