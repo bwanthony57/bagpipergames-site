@@ -7,6 +7,23 @@ const require = createRequire(import.meta.url);
 const fontkit = require('fontkit');
 
 const ASSETS = path.resolve('assets');
+
+function findChromeExecutable() {
+  const candidates = [
+    process.env.CHROME_PATH,
+    '/usr/local/bin/google-chrome',
+    '/usr/bin/google-chrome',
+    'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+    path.join(process.env.LOCALAPPDATA || '', 'Google', 'Chrome', 'Application', 'chrome.exe'),
+  ].filter(Boolean);
+
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) return candidate;
+  }
+
+  throw new Error('Chrome not found. Set CHROME_PATH to your browser executable.');
+}
 const INTER_MEDIUM = 'node_modules/@fontsource/inter/files/inter-latin-500-normal.woff';
 const INTER_REGULAR = 'node_modules/@fontsource/inter/files/inter-latin-400-normal.woff';
 
@@ -247,7 +264,7 @@ async function main() {
   }
 
   const browser = await puppeteer.launch({
-    executablePath: '/usr/local/bin/google-chrome',
+    executablePath: findChromeExecutable(),
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
 

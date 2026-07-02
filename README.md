@@ -23,7 +23,40 @@ No build step or server is required. All assets are local.
 
 <!-- TODO: Add deployment notes when hosting is configured (e.g. GitHub Pages, static host). -->
 
-This site is plain HTML and CSS. Deploy by uploading `index.html`, `styles.css`, and the `assets/` folder to any static host. Point the `bagpipergames.com` domain at that host when ready.
+This site is plain HTML and CSS. Deploy by uploading `index.html`, `styles.css`, `robots.txt`, `sitemap.xml`, and the `assets/` folder to any static host. Point the `bagpipergames.com` domain at that host when ready.
+
+## SEO and Google Search Console
+
+After deploying, complete these steps in [Google Search Console](https://search.google.com/search-console?resource_id=sc-domain:bagpipergames.com):
+
+1. **Submit the sitemap** — Sitemaps → Add new sitemap → enter `sitemap.xml` → Submit.
+2. **Request indexing** — URL Inspection → enter `https://bagpipergames.com/` → Request indexing.
+3. **Verify crawlability** — Confirm these URLs return 200 after deploy:
+   - `https://bagpipergames.com/robots.txt`
+   - `https://bagpipergames.com/sitemap.xml`
+4. **Monitor** — Check Pages (indexing) and Performance after a few days for the query `bagpiper games`.
+
+### On-site SEO included
+
+- Canonical URL, meta description, Open Graph, and Twitter cards in `index.html`
+- JSON-LD structured data (`Organization` + `WebSite`)
+- `robots.txt` and `sitemap.xml` at the site root
+- Brand-focused H1 and copy naming Bagpiper Games, BAGPIPER, LLC, Fort Worth, and Golfer's Pair-A-Dice
+
+### Off-site signals (manual)
+
+- Link to `https://bagpipergames.com` from [golferspairadice.com](https://golferspairadice.com) (footer or about page)
+- Use consistent naming **Bagpiper Games** on GitHub, social profiles, and app store listings
+- Add the site URL to any public business or press listings
+
+### Regenerate logo PNGs
+
+```bash
+npm install
+node scripts/generate-assets.mjs
+```
+
+Requires Google Chrome (or set `CHROME_PATH` to your browser executable).
 
 ## Privacy reminder
 

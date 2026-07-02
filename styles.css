@@ -195,6 +195,13 @@ main {
   color: var(--cream);
 }
 
+.section-intro {
+  margin: -0.35rem 0 1.25rem;
+  max-width: 42rem;
+  color: var(--cream-muted);
+  font-size: 1.05rem;
+}
+
 .contact-group {
   margin: 0 0 1.75rem;
   max-width: 42rem;
