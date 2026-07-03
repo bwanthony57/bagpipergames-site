@@ -6,7 +6,7 @@ brand
 
 ## Users
 
-- **Players and fans** looking for approachable indie tabletop games — browsing on phone or desktop, often arriving from a game site or social link.
+- **Players and fans** looking for approachable indie digital games — browsing on phone or desktop, often arriving from a game site or social link.
 - **Support contacts** for Golfer's Pair-A-Dice who need a clear path to email help.
 - **Business partners and press** who want to understand BAGPIPER, LLC and reach the right inbox.
 
